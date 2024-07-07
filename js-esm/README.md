@@ -1,4 +1,4 @@
-# js-commonjs
+# js-esm
 
 A Yarn workspace mono repo using plain JS and ES modules.
 
@@ -25,4 +25,4 @@ After performing the above steps, `foo` and `bar` can be imported from `main`.
 
 ## Differences from CommonJS
 
-The main differences in this example compared to the js-common-js example is the use of import / export in the code, and specifying an `exports` in the `package.json`s.
+The main differences in this example compared to the js-commonjs example is the use of import / export in the code, and specifying `"type": "module"` in the `package.json` of each workspace, along with specifying an `exports` for each workspace instead of `main`.
