@@ -1,0 +1,9 @@
+{
+  "name": "js-commonjs",
+  "private": true,
+  "workspaces": [
+    "foo",
+    "bar",
+    "main"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@js-commonjs/main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@js-commonjs/bar": "1.0.0",
+    "@js-commonjs/foo": "1.0.0"
+  }
+}
