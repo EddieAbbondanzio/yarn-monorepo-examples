@@ -6,7 +6,7 @@ Package `main` depends on `foo`, and `bar`.
 
 Install via `yarn`.
 
-Run via `node main/index.js`.
+Run via `yarn workspace @js-commonjs/main start`.
 
 Output should be:
 
