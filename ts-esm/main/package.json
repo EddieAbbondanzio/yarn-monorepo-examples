@@ -1,0 +1,17 @@
+{
+  "name": "@ts-esm/main",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@ts-esm/bar": "1.0.0",
+    "@ts-esm/foo": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  }
+}
