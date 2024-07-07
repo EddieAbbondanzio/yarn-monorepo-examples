@@ -1,0 +1,10 @@
+{
+  "name": "@js-esm/main",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@js-esm/bar": "1.0.0",
+    "@js-esm/foo": "1.0.0"
+  }
+}
